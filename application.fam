@@ -1,0 +1,17 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="flipper_zero_template",  # Must be unique
+    name="Flipper Zero Template",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="main_entry",
+    stack_size=2 * 1024,
+    fap_category="Examples",
+    fap_version="1.0",
+    fap_icon="icon.png",  # 10x10 1-bit PNG
+    fap_description="A template project for Flipper Zero applications.",
+    fap_author="Gerald McAlister",
+    fap_weburl="https://github.com/GEMISIS/flipper_zero_template",
+    fap_icon_assets="images",  # Image assets to compile for this application
+    sources=["src/*.c", "src/scenes/*.c"],
+)
