@@ -2,6 +2,10 @@
 
 A template repo for Flipper Zero projects. Contains several helper files for managing projects as well as a starting point for building out an app.
 
+## Screenshots
+
+![Alt text](/.flipcorg/gallery/screenshot-1.png?raw=true "Banner")
+
 ## Dependencies
 
 This project depends on [uFBT](https://github.com/flipperdevices/flipperzero-ufbt) for building. It is also recommended to install VSCode for ease of development, as well as [minicom](https://en.wikipedia.org/wiki/Minicom) for debugging (`brew install minicom`).
